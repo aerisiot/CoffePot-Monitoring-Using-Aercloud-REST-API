@@ -18,19 +18,19 @@ const conf = convict({
     apiKey: {
       doc: 'The api key for account id',
       format: String,
-      default: '3965e581-120d-11e2-8fb3-6362753ec2a5',
+      default: '<your api key>',
       env: 'API_KEY',
     },
     deviceId: {
       doc: 'The device id',
       format: String,
-      default: 'PI-TEAM-11',
+      default: '<your device id>',
       env: 'DEVICE_ID',
     },
     containerId: {
       doc: 'The container id',
       format: String,
-      default: 'CNT-TEAM-11',
+      default: '<your container id>',
       env: 'CONTAINER_ID',
     },
   },
