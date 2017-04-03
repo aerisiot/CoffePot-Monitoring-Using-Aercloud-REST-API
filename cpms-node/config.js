@@ -18,7 +18,7 @@ const conf = convict({
     apiKey: {
       doc: 'The api key for account id',
       format: String,
-      default: '3965e581-120d-11e2-8fb3-6362753ec2a5',
+      default: '<Your API Key>',
       env: 'API_KEY',
     },
     deviceId: {
