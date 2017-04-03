@@ -1,0 +1,29 @@
+{
+  "name": "cpms",
+  "version": "1.0.0",
+  "description": "A coffee pot monitoring system engine",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node ./bin/engine.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "iot",
+    "aeris",
+    "pi",
+    "rasberry-pi",
+    "aercloud"
+  ],
+  "author": "Nilesh Mali <nilesh.mali@aeris.net>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "0.15.3",
+    "convict": "2.0.0",
+    "forever-monitor": "1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "3.17.1",
+    "eslint-config-airbnb-base": "11.1.1",
+    "eslint-plugin-import": "2.2.0"
+  }
+}

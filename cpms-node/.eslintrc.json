@@ -1,0 +1,33 @@
+{
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "extends": "airbnb-base",
+  "rules": {
+    "linebreak-style": 0,
+    "no-console": 0,
+    "import/no-unresolved": [
+      0,
+      {
+        "commonjs": true
+      }
+    ],
+    "max-len": [
+      2,
+      {
+        "code": 120
+      }
+    ],
+    "import/prefer-default-export": 0,
+    "import/no-extraneous-dependencies": 0,
+    "camelcase": 0,
+    "arrow-body-style": 0,
+    "global-require": 0,
+    "no-underscore-dangle": 0,
+    "no-use-before-define": [
+      2,
+      "nofunc"
+    ]
+  }
+}
